@@ -1,0 +1,41 @@
+.game--title {
+    color: #dcd8d8;
+    font-size: 50px;
+}
+
+.game--container {
+    display: grid;
+    margin: 20px;
+    color: #dcd8d8;
+    margin-bottom: 40px;
+    grid-template-columns: repeat(3, auto);
+}
+
+.cell {
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+    font-size: 60px;
+    line-height: 100px;
+    border: 1px solid #128a85;
+}
+
+.game--restart {
+    cursor: pointer;
+    width: 200px;
+    height: 50px;
+    font-size: 25px;
+    color: #dcd8d8;
+    background-color: #282c34;
+    border: 2px solid #dcd8d8;
+}
+
+.game--activeusers {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.game--activeusers p {
+    padding-right: 10px;
+}
