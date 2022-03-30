@@ -51,7 +51,7 @@ function Game() {
       socket.emit('currentMove', [currentIndex, currentSymbol || 'X']);
     }
   };
-
+ 
   const restartGame = () => {
     setHasWon(false);
     setCurrentPlayer('');
